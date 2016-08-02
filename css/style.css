@@ -10,9 +10,6 @@
 @import url("../css/bootstrap/bootstrap.css");
 @import url("../css/bootstrap/bootstrap-theme.css");
 
-/* Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
 /* Owl Carousel */
 @import url("../css/owl.carousel.css");
@@ -23,7 +20,41 @@
 @import url("../css/bootstrap-lightbox.css");
 
 
+/* Info inicial*/
+
+/*
+
+Color barra top: #F0F0F0
+Background principal:  #FFFFFF;
+Secundario - Verde:  #31AFB2
+Bordes gris: #ADAFB0;
+Button Gris: #808080;
+
+Menus - Titulos: Century;
+
+
+*/
+
+
+
 /* ESTILOS GENERALES*/
+
+
+@font-face {
+    font-family: Cashew;
+    src: url(fonts/Cashew Apple Ale.woff);
+}
+
+@font-face {
+    font-family: Cashewb;
+    src: url(fonts/Cashew Apple Ale Bold.woff);
+}
+
+@font-face {
+    font-family: Century;
+    src: url(fonts/Cashew Apple Ale Bold.woff);
+}
+
 
 
 body{
@@ -31,7 +62,7 @@ body{
 	line-height:30px;
 	color:#4d4d4d;
 	background: #fff;
-	font-family: Lato;
+	font-family: Century;
 	font-size: 16px;
 	font-weight: 300;
 	
@@ -101,9 +132,33 @@ img{
 }
 
 
-/*barra top*/
 
-.barratop{
+
+/*barra */
+
+.barra{
 
 	background-color: #F0F0F0;
+}
+
+
+
+
+
+/*Productos__item*/
+
+.productos__item{
+
+	border:1px solid #ADAFB0;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+
+
+/*Footer*/
+
+.footer{
+
+	background-color: #31AFB2;
 }
