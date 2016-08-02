@@ -48,34 +48,46 @@
 					<img src="img/logo.png" alt="logo">
 				</div>
 
-				<div class="col-md-offset-6 col-md-4 header__cuenta">
-					<div class="col-md-12 header__logo__options">
-						<ul>
-							<li><a href="#">MI CUENTA <i class="fa fa-user" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
- 							MI CARRITO</a></li>
-							<li><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+				<div class="col-md-offset-5 col-md-5 header__cuenta">
+					<div class="col-md-12">
+						<ul class="header__cuenta__options">
+							<li><a href="#"><span>MI CUENTA</span><img src="img/user.png" alt="user"></a></li>
+							<li><a href="#"><span>MI CARRITO</span><img src="img/shopping.png" alt="shopping"></a></li>
+							<li><a href="#"><img src="img/points.png" alt="point"></a></li>
 						</ul>
 					</div>
 
 					<div class="col-md-12 header__logo__busqueda">
-						
+						<form action="#">
+							<input type="text" class="form-control empty" id="iconified" placeholder="&#xF002;"/>
+						</form>
 					</div>
 				</div>
 
-				<div class="col-md-12">
-					<nav class="header__nav">
-						<ul>
-							<li><a href="#">PRODUCTOS</a></li>
+				<div class="col-md-12 header__nav">
+					<nav class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTOS</a>
+								<ul class="dropdown-menu">
+					                <li ><a href="#">Arreglos Frutales</a><hr></li>
+					                <li><a href="#">Arreglos Frutales con Chocolate</a><hr></li>
+					                <li><a href="#">Frutti-Manzana</a><hr></li>
+					                <li><a href="#">Mini-Arreglos</a><hr></li>
+					                <li><a href="#">Frutti-Cajitas</a></li>
+				              	</ul>
+								
+							</li>
+							
 							<li><a href="#">OCASIONES</a></li>
 							<li><a href="#">EVENTOS</a></li>
 							<li><a href="#">CONÓCENOS</a></li>
 							<li><a href="#">PROMOCIONES</a></li>
 							<li><a href="#">CONTÁCTANOS</a></li>
 						</ul>
+
 					</nav>
 				</div>
-			</div>
 		<!-- Fin Logo -->
 		</div>
 	</div>
@@ -320,4 +332,19 @@
 </body>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
+
+<script>
+	$( document ).ready(function() {
+   	
+   	$(".header__nav ul li a").hover(function(){
+		$(".header__nav__dropdown").toggleClass( "header__nav__dropdown--active" ); 		
+   	});
+
+   	$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+});
+</script>
 </html>
