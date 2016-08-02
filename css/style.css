@@ -40,12 +40,12 @@ Menus - Titulos: Century;
 
 @font-face {
     font-family: Cashew;
-    src: url(fonts/Cashew Apple Ale.woff);
+    src: url(../fonts/CashewAppleAle.ttf);
 }
 
 @font-face {
     font-family: Cashewb;
-    src: url(fonts/Cashew Apple Ale Bold.woff);
+    src: url(../fonts/CashewAppleAleBold.ttf);
 }
 
 @font-face {
@@ -354,6 +354,32 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 .dropdown-menu > li > a {
     display: inherit;
 }
+
+
+/* Slide */
+
+.item h1{
+
+	color:#f9f9f9;
+	font-family: 'Cashew';
+	font-size: 7em;
+	letter-spacing: 1px;
+	position: absolute;
+	text-transform: none!important;
+	top:33%;
+	left: 58%;
+}
+
+.item h2{
+
+	color:#f9f9f9;
+	font-family: 'Cashew';
+	font-size: 3em;
+	position: absolute;
+	top:51%;
+	left: 58%;
+}
+
 
 
 /*Productos__item*/
