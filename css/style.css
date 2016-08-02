@@ -15,9 +15,7 @@
 @import url("../css/owl.carousel.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
-/* Animate and more*/
-@import url("../css/animate.css");
-@import url("../css/bootstrap-lightbox.css");
+
 
 
 /* Info inicial*/
@@ -51,9 +49,15 @@ Menus - Titulos: Century;
 }
 
 @font-face {
-    font-family: Century;
-    src: url(fonts/Cashew Apple Ale Bold.woff);
+    font-family: century;
+    src: url(../fonts/century-gothic.ttf);
 }
+
+@font-face {
+    font-family: centuryb;
+    src: url(../fonts/century-gothic-bold.ttf);
+}
+
 
 
 
@@ -62,7 +66,7 @@ body{
 	line-height:30px;
 	color:#4d4d4d;
 	background: #fff;
-	font-family: Century;
+	font-family:century;
 	font-size: 16px;
 	font-weight: 300;
 	
@@ -137,11 +141,46 @@ img{
 /*barra */
 
 .barra{
-
 	background-color: #F0F0F0;
+	height: 2.5em;
 }
 
+.barra ul li{
+	display: inline-block;
+}
 
+.barra__icons{
+	margin-left: -3em;
+	margin-top: 5px;
+}
+
+.barra__icons li{
+	font-size: 1.3em;
+	font-weight: 800;
+	margin-right: 1em;
+}
+
+.barra__icons li a i{
+	color:#31AFB2;
+}
+
+.barra__user{
+	text-align: right;
+}
+
+.barra__user li:first-child::after{
+	content: "|";
+	color:#31AFB2;
+	font-size: 1.5em;
+}
+
+.barra__user li a{
+	color:#31AFB2;
+	font-size: 0.72em;
+	font-weight: 800;
+	letter-spacing: 0px!important;
+	padding: 0 10px;
+}
 
 
 
