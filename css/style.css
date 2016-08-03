@@ -475,11 +475,14 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	padding-bottom: 0em!important;
 }
 
-
-.col-md-2a {
-    
+.col-md-1a{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 12%;
+    float: left;
 }
-
 
 .col-md-2a{
     position: relative;
@@ -558,18 +561,95 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 .footer__itemfooter ul li{
 	list-style: none;
-	margin-top: -1px;
+	margin-top: -5px;
 	margin-left: -0.5em;
+	font-weight: bold;
 }
 
 .footer__itemfooter ul li a{
 	color:#fff;
-	font-size: 1em;
+	font-size:0.8em;
 	font-weight: 800;
-	line-height: 10px;
+
+}
+
+.left{
+	margin-left: 2.4em;
+	margin-top: -5px;
+}
+
+
+.left2{
+	margin-left: 1.8em;
+	margin-top: -5px;
+}
+
+.footer__itemfooter ul li a i{
+	font-size: 1.5em;
+	margin-right: 0.5em;
+	min-width: 20px;
+}
+
+.lineh{
+	display: block;
+	line-height: 20px;
 }
 
 
 .footer__itemfooter ul li a span{
 	margin-top: -20px;
+}
+
+.footer__suscribe {
+	margin-top: 1em;
+}
+.footer__suscribe label{
+	color:#fff;
+	font-size: 1.1em;
+}
+
+.footer__suscribe input{
+
+	border-radius: 10px;
+	border: none;
+	margin-left: 1em;
+	padding:0.3em 1em;
+	width: 40%;
+}
+
+.footer__suscribe input::-webkit-input-placeholder{
+	font-weight: 800;
+}
+
+.footer__suscribe input[type="submit"]{
+	background-color: #808080;
+	color:#fff;
+	font-weight: 800;
+	width: 15%;
+}
+
+.footer__logos{
+	text-align: right;
+}
+.footer__logos ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.footer__logos ul li a i{
+
+	color: #fff;
+	font-size: 1.3em;
+	margin-right:1em;
+	margin-top: 1em;
+}
+
+.barra--down{
+	text-align: center;
+}
+
+.barra--down h4{
+	font-weight: 800;
+	font-size: 0.8em;
+	padding-top: 5px;
 }
