@@ -417,9 +417,9 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	text-align: center;
 }
  
-.productos__item img{
-	border-bottom: 2px solid #f0f0f0;
-	padding-bottom: 1.5em;
+.separador{
+	border-top: 2px solid #f0f0f0;
+	
 }
 
 .productos__item h3{
@@ -437,6 +437,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	margin-top: -0.8em;
 	padding-bottom: 1em;
 }
+
 
 /*Categorias*/
 
