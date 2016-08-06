@@ -932,7 +932,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
 
 	.col-xs-6 {
 	    width: 50%!important;
@@ -940,6 +940,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 	.productos__item {
     	padding-top: 0px;
+
    	}
 
    	.infoproducto__aviso ul{
@@ -977,31 +978,16 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	.down {
     	top: 73%;
     }
-
-    .navbar-brand{
-		display: block;
-		color:#f9f9f9!important;
-
-	}
-
 	.header__nav{
 		padding: 0.5em 0!important;
 	}
 
 	.header__nav ul li{
-		display: block;
+		font-size: 0.8em;
 		margin-bottom: 0.5em;
 		margin-top: 0.5em;
 	}
 	
-	.header__nav ul li a::after{
-
-		display: none!important;
-	}	
-
-	.dropdown-menu{
-		display: none!important;
-	}
 
 	#pages .item h1 {
     	top: 0%;
@@ -1018,10 +1004,10 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 		margin-left: 0%;
 	}
 
-	#bs-example-navbar-collapse-1 > ul{
-		opacity: 0.2;
+	#contacto{
+		margin-left: 5%;
 	}
-
+	
 
 	
 }
