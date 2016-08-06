@@ -926,10 +926,17 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
         font-size: 0.9em;
 	}
 
+	
+    .navbar-brand{
+		display: block;
+		color:#f9f9f9!important;
+
+	}
+
 }
 
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
 
 	.col-xs-6 {
 	    width: 50%!important;
