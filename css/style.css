@@ -929,7 +929,10 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 }
 
 
-@media screen and (max-width:768px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
 
 	.col-xs-6 {
 	    width: 50%!important;
