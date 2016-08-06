@@ -12,7 +12,7 @@
 
 
 /* Owl Carousel */
-@import url("../css/owl.carousel.css");
+@import url("owl.carousel.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 
@@ -32,7 +32,6 @@ Menus - Titulos: Century;
 
 
 */
-
 
 
 /* ESTILOS GENERALES*/
@@ -296,9 +295,7 @@ input.empty {
 	color:#108386!important;
 }
 
-.active {
-	color:#108386!important;
-}
+
 
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
@@ -749,6 +746,152 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
     border-bottom-right-radius: 0px;
 }
 
+
+/*Detalle*/
+
+.detalle{
+	border: 2px solid #e1e1e1;
+	border-radius: 15px;
+	margin-top: 3em;
+}
+
+.detalle .item img{
+
+	margin-left: 15%;
+	width: 70%;
+}
+
+#owl-demo .item {
+    margin: 3px;
+}
+#owl-demo .item img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.owl-dots {
+      margin: 0 auto;
+      position: absolute;
+      top:40%;
+      left:2%;
+}
+
+.owl-dot {
+     width: 14px;
+     height: 14px;
+     border-radius: 100%;
+     border: 1px solid #ccc;
+     background: #f9f9f9;
+     margin-right: 5px;
+     margin-left: 5px;
+     margin-top: 5px;
+     display: block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+}
+
+.owl-dot.active {
+     background: #31AFB2;
+}
+
+
+.detalle_options .input-number{
+	border-left:1px solid #ccc!important;
+	border-top:1px solid #ccc!important;
+	border-bottom:1px solid #ccc!important;
+	border-right:0px solid #ccc!important;
+	border-radius: 0px!important;
+	font-weight: 800;
+	float: left;
+	padding: 1.5em 0;
+	text-align: center;
+	width: 10%;
+}
+
+.detalle_options h2{
+	color:#31AFB2;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.detalle_options h3{
+	color:#838488;
+	font-weight: bold;
+	margin-left: -0.5em;
+	margin-top: 0.2em;
+}
+
+.detalle_options h4{
+	color:#838488;
+	font-size: 14px;
+	margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.detalle_options p{
+	border-top:2px solid #eaebeb; 
+	border-bottom:2px solid #eaebeb; 
+	font-size: 1em;
+    line-height: 1.5em;
+	margin-top: 0.5em;
+	margin-left: -0.5em;
+	padding: 1em 0;
+}
+
+
+.stars{
+	margin-left: -0.7em;
+    margin-top: -1em;
+}
+
+.stars i{
+	color:#838488;
+	font-size: 10px;
+}
+
+.littles{    
+
+	display: inline-block;
+    padding: 1.3px 5px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px!important;
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btnp2 {
+    background-color: #31AFB2;
+    color:#f9f9f9;
+	border-radius: 12px;
+	margin-left: 1em;
+    margin-bottom: 0em!important; 
+    margin-top: 0em!important;
+	padding: 0.7em 1.5em;
+}
+
+.btnp2 a {
+	color:#f9f9f9;
+}
 
 
 /***************mediaqueries*******************/
