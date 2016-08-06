@@ -296,6 +296,10 @@ input.empty {
 	color:#108386!important;
 }
 
+.active {
+	color:#108386!important;
+}
+
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
@@ -666,7 +670,88 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	padding-top: 5px;
 }
 
+/*Pages*/   
 
+#pages .item h1, #pages .item h2{
+	color:#31AFB2!important;  
+}
+
+#pages .item h1{
+
+	top:24%;
+	
+}
+
+.item_pages img{
+	padding-top: 1em;
+}
+
+#pagesc{
+	margin-bottom: 3em;
+}
+
+.btnp{
+	background-color: #31AFB2;
+	border-radius: 13px;
+	padding: 0.2em 1.2em;
+	margin-bottom: 3em;
+	margin-left: 1em;
+	margin-top: 1.6em;
+}
+
+.btnp a{
+	color:#f9f9f9;
+}
+
+.controls{
+	margin-top: -3em;
+}
+.controls i{
+	color:#848589;
+	font-size: 2em;
+}
+
+.pagination{
+	border-radius: 0px!important;
+	margin-left: 32%;
+	text-align: right;
+
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #31AFB2;
+    border-color: #31AFB2;
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 2px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #848589;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+
+/***************mediaqueries*******************/
 @media screen and (max-width:1024px) {
 	
 	.header__cuenta__options li {
@@ -684,6 +769,10 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 	.footer__itemfooter ul li{
 		margin-left: -1.5em;
+	}
+
+	.pagination{
+		margin-left: 16%;
 	}
 
 }
@@ -758,6 +847,14 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 	.dropdown-menu{
 		display: none!important;
+	}
+
+	#pages .item h1 {
+    	top: 0%;
+	}
+
+	.controls{
+		margin-top: 0em;
 	}
 	
 }
