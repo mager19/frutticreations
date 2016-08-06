@@ -926,12 +926,8 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
         font-size: 0.9em;
 	}
 
-	
-    .navbar-brand{
-		display: block;
-		color:#f9f9f9!important;
 
-	}
+    
 
 }
 
@@ -1020,6 +1016,10 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	}
 	.pagination{
 		margin-left: 0%;
+	}
+
+	#bs-example-navbar-collapse-1 > ul{
+		opacity: 0.2;
 	}
 
 
