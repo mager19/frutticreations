@@ -856,6 +856,15 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	.controls{
 		margin-top: 0em;
 	}
+
+	.controls{
+	    text-align: center;
+	}
+	.pagination{
+		margin-left: 0%;
+	}
+
+
 	
 }
 
@@ -935,6 +944,12 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	.footer__logo{
 		position: relative;
 		left:38%;
+	}
+
+	.categorias h2 {
+	    font-size: 1.5em;
+	    margin-top: 0em;
+	    text-align: center;
 	}
 
 }
