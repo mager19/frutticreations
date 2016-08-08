@@ -1057,12 +1057,19 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 
 @media screen and (max-width:480px) {
-	.header__cuenta__options{
-		display: none;
+	.header__cuenta__options {
+    	text-align: left;
+    	margin-top: 0em;
+    	margin-left: -2em;
+
 	}
-	.header__logo__busqueda{
-		margin-top: 3em;
+	.header__logo__busqueda {
+    	margin-top: 0em;
 	}
+	.header__cuenta__options li{
+		margin-left: 0!important;
+	}
+	
 	input.empty {
        	margin-left: 3%;
     	width: 100%;
