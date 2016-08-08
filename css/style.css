@@ -906,9 +906,14 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	font-size: 16em!important;
 	font-weight: 200;
 	top:5%!important;
-	
+
 }
 
+
+/*eventos*/
+.eventosl{
+	color:#31AFB2!important;
+}
 
 
 /***************mediaqueries*******************/
@@ -1041,6 +1046,11 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 		margin-left: 5%;
 	}
 	
+	.grande {
+    	left: 60%!important;
+    	font-size: 10em!important;
+	}
+
 
 	
 }
@@ -1127,6 +1137,11 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	    font-size: 1.5em;
 	    margin-top: 0em;
 	    text-align: center;
+	}
+
+	.grande {
+    left: 60%!important;
+    font-size: 4em!important;
 	}
 
 }
