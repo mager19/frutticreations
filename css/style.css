@@ -916,6 +916,52 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 }
 
 
+/*Promo*/
+#promo h1 {
+	color:#838488;
+	font-family: 'century';
+	font-size: 3em;
+	font-weight: 800;
+	font-weight: 200;
+	position: absolute;
+    text-transform: none!important;
+    top: 8%;
+    left: 52%;
+}
+
+#promo h1 span{
+	color: #31AFB2!important;
+    font-family: 'Cashew';
+    font-size: 2em;
+    font-weight: 800;
+    left: 12%;
+    padding-top: 0.2em!important;
+    position: absolute;
+    width: 100%;
+	
+}
+
+#promo h5 {
+	color:#838488;
+	font-family: 'century';
+	font-size: 1.5em;
+	font-weight: 800;
+	font-weight: 200;
+	position: absolute;
+    text-transform: none!important;
+    top: 53%;
+    left: 60%;
+}
+
+#promo h5 span{
+	position: absolute;
+	font-size: 1.1em;
+	left:20%;
+	top:2%;
+    width: 100%;
+}
+
+
 /***************mediaqueries*******************/
 @media screen and (max-width:1024px) {
 	
@@ -982,7 +1028,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	}
 	.header__cuenta__options {
     	text-align: right;
-    	margin-top: 2em;
+    	margin-top: -2em;
 	}
 	
 	.item h1 {
@@ -1051,6 +1097,14 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
     	font-size: 10em!important;
 	}
 
+	#promo h1 {
+		font-size: 2em;
+	}
+	
+	#promo h5 {
+		font-size: 1em;
+		top:62%;
+	}
 
 	
 }
@@ -1147,8 +1201,17 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	}
 
 	.grande {
-    left: 60%!important;
-    font-size: 4em!important;
+    	left: 60%!important;
+    	font-size: 4em!important;
+	}
+
+	#promo h1 {
+    	font-size: 1em;
+    	top: 0%
+	}	
+
+	#promo h5 {
+		display: none;
 	}
 
 }
