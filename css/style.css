@@ -896,6 +896,21 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 }
 
 
+.ocasionesl{
+	padding-top: 1em!important;
+	padding-bottom: 1em;
+}
+
+/*Amor*/
+.grande {
+	font-size: 16em!important;
+	font-weight: 200;
+	top:5%!important;
+	
+}
+
+
+
 /***************mediaqueries*******************/
 @media screen and (max-width:1024px) {
 	
