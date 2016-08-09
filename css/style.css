@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @mager19
+ Unwatch 1
+  Star 0
+  Fork 0 mager19/frutticreations
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: gh-pages Find file Copy pathfrutticreations/css/style.css
+a2e4754  18 hours ago
+@mager19 mager19 Añadido Contacto
+1 contributor
+RawBlameHistory     1305 lines (1024 sloc)  19.6 KB
 
 
 /* ---------------------------------------------------------------------- */
@@ -12,7 +28,7 @@
 
 
 /* Owl Carousel */
-@import url("../css/owl.carousel.css");
+@import url("owl.carousel.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 
@@ -21,18 +37,13 @@
 /* Info inicial*/
 
 /*
-
 Color barra top: #F0F0F0
 Background principal:  #FFFFFF;
 Secundario - Verde:  #31AFB2
 Bordes gris: #ADAFB0;
 Button Gris: #808080;
-
 Menus - Titulos: Century;
-
-
 */
-
 
 
 /* ESTILOS GENERALES*/
@@ -261,10 +272,6 @@ input.empty {
 	box-shadow: inset 0 0px 0 rgba(255, 255, 255, .15), 0 0px 0px rgba(0, 0, 0, .075)!important;
 }
 
-.minav{
-	background: red;
-	
-}
 
 .navbar-brand{
 	display: none;
@@ -280,6 +287,7 @@ input.empty {
 
 .header__nav ul li a{
 	color:#f9f9f9!important;
+	/*font-size: 1.3em;*/
 	font-weight: 800;
 	letter-spacing: 0px!important;
 	text-decoration:none;
@@ -295,6 +303,8 @@ input.empty {
 .header__nav ul li a:hover{
 	color:#108386!important;
 }
+
+
 
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
@@ -328,7 +338,7 @@ input.empty {
     top: 2.5em;
 	}
 
-.dropdown-menu::after{
+.dropdown-menu li a::after{
 	display: none!important;
 }
 
@@ -339,6 +349,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 }
 
 .dropdown-menu li{
+	margin-top: -2px!important;
 	width: 100%;
 }
 
@@ -666,7 +677,376 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	padding-top: 5px;
 }
 
+/*Pages*/   
 
+#pages .item h1, #pages .item h2{
+	color:#31AFB2!important;  
+}
+
+#pages .item h1{
+
+	top:24%;
+	
+}
+
+.item_pages img{
+	padding-top: 1em;
+}
+
+#pagesc{
+	margin-bottom: 3em;
+}
+
+.btnp{
+	background-color: #31AFB2;
+	border-radius: 13px;
+	padding: 0.2em 1.2em;
+	margin-bottom: 3em;
+	margin-left: 1em;
+	margin-top: 1.6em;
+}
+
+.btnp a{
+	color:#f9f9f9;
+}
+
+.controls{
+	margin-top: -3em;
+}
+.controls i{
+	color:#848589;
+	font-size: 2em;
+}
+
+.pagination{
+	border-radius: 0px!important;
+	margin-left: 32%;
+	text-align: right;
+
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #31AFB2;
+    border-color: #31AFB2;
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 2px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #848589;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+/*Detalle*/
+
+.detalle{
+	border: 2px solid #e1e1e1;
+	border-radius: 15px;
+	margin-top: 3em;
+}
+
+.detalle .item img{
+
+	margin-left: 15%;
+	width: 70%;
+}
+
+#owl-demo .item {
+    margin: 3px;
+}
+#owl-demo .item img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.owl-dots {
+      margin: 0 auto;
+      position: absolute;
+      top:40%;
+      left:2%;
+}
+
+.owl-dot {
+     width: 14px;
+     height: 14px;
+     border-radius: 100%;
+     border: 1px solid #ccc;
+     background: #f9f9f9;
+     margin-right: 5px;
+     margin-left: 5px;
+     margin-top: 5px;
+     display: block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+}
+
+.owl-dot.active {
+     background: #31AFB2;
+}
+
+
+.detalle_options .input-number{
+	border-left:1px solid #ccc!important;
+	border-top:1px solid #ccc!important;
+	border-bottom:1px solid #ccc!important;
+	border-right:0px solid #ccc!important;
+	border-radius: 0px!important;
+	font-weight: 800;
+	float: left;
+	padding: 1.5em 0;
+	text-align: center;
+	width: 10%;
+}
+
+.detalle_options h2{
+	color:#31AFB2;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.detalle_options h3{
+	color:#838488;
+	font-weight: bold;
+	margin-left: -0.5em;
+	margin-top: 0.2em;
+}
+
+.detalle_options h4{
+	color:#838488;
+	font-size: 14px;
+	margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.detalle_options p{
+	border-top:2px solid #eaebeb; 
+	border-bottom:2px solid #eaebeb; 
+	font-size: 1em;
+    line-height: 1.5em;
+	margin-top: 0.5em;
+	margin-left: -0.5em;
+	margin-bottom: 1em;
+	padding: 1em 0;
+}
+
+.detalle_options span{
+	font-size: 14px;
+}
+
+.stars{
+	margin-left: -0.7em;
+    margin-top: -1em;
+}
+
+.stars i{
+	color:#838488;
+	font-size: 10px;
+}
+
+.littles{    
+
+	display: inline-block;
+    padding: 1.3px 5px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px!important;
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btnp2 {
+    background-color: #31AFB2;
+    color:#f9f9f9;
+	border-radius: 12px;
+	margin-left: 1em;
+    margin-bottom: 0em!important; 
+    margin-top: 0em!important;
+	padding: 0.7em 1.5em;
+}
+
+.btnp2 a {
+	color:#f9f9f9;
+}
+
+
+.ocasionesl{
+	padding-top: 1em!important;
+	padding-bottom: 1em;
+}
+
+/*Amor*/
+.grande {
+	font-size: 16em!important;
+	font-weight: 200;
+	top:5%!important;
+
+}
+
+
+/*eventos*/
+.eventosl{
+	color:#31AFB2!important;
+}
+
+
+/*Promo*/
+#promo h1 {
+	color:#838488;
+	font-family: 'century';
+	font-size: 3em;
+	font-weight: 800;
+	font-weight: 200;
+	position: absolute;
+    text-transform: none!important;
+    top: 8%;
+    left: 52%;
+}
+
+#promo h1 span{
+	color: #31AFB2!important;
+    font-family: 'Cashew';
+    font-size: 2em;
+    font-weight: 800;
+    left: 12%;
+    padding-top: 0.2em!important;
+    position: absolute;
+    width: 100%;
+	
+}
+
+#promo h5 {
+	color:#838488;
+	font-family: 'century';
+	font-size: 1.5em;
+	font-weight: 800;
+	font-weight: 200;
+	position: absolute;
+    text-transform: none!important;
+    top: 53%;
+    left: 60%;
+}
+
+#promo h5 span{
+	position: absolute;
+	font-size: 1.1em;
+	left:20%;
+	top:2%;
+    width: 100%;
+}
+
+/*contacto*/
+
+.contacto input, .contato label, .contacto textarea{
+	border: 2px solid #f2f2f2;
+	border-radius: 10px;
+	padding: 0.5em 0;
+	margin-left: 1em;
+	width:94%;
+}
+
+.contacto input[type=submit]{
+	background-color: #31AFB2;
+	border: none;
+	color:#f9f9f9;
+	font-size: 1.2em;
+	font-weight: 800;
+	padding: 0.4em 0;
+	margin-top: 1.3em;
+	width: 15%;
+}
+
+.contacto label{
+	color:#a2a3a7;
+	font-size: 1.3em;
+	font-weight: 700;
+	margin-left: 1em;
+	padding: 0.5em 0;
+}
+
+.contacto ul li{
+	list-style: none;
+
+}
+
+.contacto ul li a{
+	color:#a2a3a7;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+.contacto ul li i{
+	color:#31AFB2;
+	font-size: 1.3em;
+	margin-right: 0.5em;
+	width: 25px;
+}
+
+body > section.contenedor.productos > article > div > div > div.col-md-4 > ul.footer_itemfooter__listado{
+	margin-top: 5em;
+}
+
+.left3 {
+    margin-left: 2.2em;
+    margin-top: -5px;
+}
+
+.redesS li{
+	display: inline-block;
+	margin-right: 0.5em;
+	text-align: center;
+}
+
+.redesS li a i{
+	background-color: #838488;
+    border-radius: 50%;
+    color: #f9f9f9;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+}
+}
+
+
+/***************mediaqueries*******************/
 @media screen and (max-width:1024px) {
 	
 	.header__cuenta__options li {
@@ -684,7 +1064,18 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 	.footer__itemfooter ul li{
 		margin-left: -1.5em;
+	} 
+
+	.pagination{
+		margin-left: 16%;
 	}
+
+	.header__nav ul li a {
+        font-size: 0.9em;
+	}
+
+
+    
 
 }
 
@@ -697,6 +1088,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 
 	.productos__item {
     	padding-top: 0px;
+
    	}
 
    	.infoproducto__aviso ul{
@@ -720,7 +1112,7 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	}
 	.header__cuenta__options {
     	text-align: right;
-    	margin-top: 2em;
+    	margin-top: -2em;
 	}
 	
 	.item h1 {
@@ -734,42 +1126,88 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 	.down {
     	top: 73%;
     }
-
-    .navbar-brand{
-		display: block;
-		color:#f9f9f9!important;
-
-	}
-
 	.header__nav{
-		padding: 0.5em 0!important;
+		padding: 0.2em 0!important;
 	}
 
 	.header__nav ul li{
-		display: block;
+		display: block!important;
+		font-size: 1em;
 		margin-bottom: 0.5em;
 		margin-top: 0.5em;
 	}
+
+	.header__nav ul li a:after{
+		display: none;
+	}
 	
-	.header__nav ul li a::after{
-
-		display: none!important;
-	}	
-
+	.navbar-brand{
+		color:#f9f9f9!important;
+		display: block;
+	}
+		
 	.dropdown-menu{
 		display: none!important;
 	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+    	background-color: #f9f9f9;
+	}
+	
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    	background-color: #31AFB2
+	}
+	#pages .item h1 {
+    	top: 0%;
+	}
+
+	.controls{
+		margin-top: 0em;
+	}
+
+	.controls{
+	    text-align: center;
+	}
+	.pagination{
+		margin-left: 0%;
+	}
+
+	#contacto{
+		margin-left: 5%;
+	}
+	
+	.grande {
+    	left: 60%!important;
+    	font-size: 10em!important;
+	}
+
+	#promo h1 {
+		font-size: 2em;
+	}
+	
+	#promo h5 {
+		font-size: 1em;
+		top:62%;
+	}
+
 	
 }
 
 
 @media screen and (max-width:480px) {
-	.header__cuenta__options{
-		display: none;
+	.header__cuenta__options {
+    	text-align: left;
+    	margin-top: 0em;
+    	margin-left: -2em;
+
 	}
-	.header__logo__busqueda{
-		margin-top: 3em;
+	.header__logo__busqueda {
+    	margin-top: 0em;
 	}
+	.header__cuenta__options li{
+		margin-left: 0!important;
+	}
+	
 	input.empty {
        	margin-left: 3%;
     	width: 100%;
@@ -840,4 +1278,41 @@ body > header > div > div > div > div.col-md-12.header__nav > nav > ul > li.drop
 		left:38%;
 	}
 
+	.categorias h2 {
+	    font-size: 1.5em;
+	    margin-top: 0em;
+	    text-align: center;
+	}
+
+	.grande {
+    	left: 60%!important;
+    	font-size: 4em!important;
+	}
+
+	#promo h1 {
+    	font-size: 1em;
+    	top: 0%
+	}	
+
+	#promo h5 {
+		display: none;
+	}
+
+	.contacto input[type=submit]{
+		margin-bottom: 3em;
+		width: 30%;
+	}
+	body > section.contenedor.productos > article > div > div > div.col-md-4 > ul.footer_itemfooter__listado {
+    	margin-top: 0em;
+    	margin-bottom:2em;
+	}
+	
+	.contacto ul li i {
+        margin-right: 0.4em;
+	}
+	.redesS{
+		margin-left: 4em;
+	}
 }
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
